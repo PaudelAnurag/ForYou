@@ -4,7 +4,7 @@ from datetime import date
 from streamlit.components.v1 import html as st_html
 
 st.set_page_config(
-    page_title="Will You Go On A Date With Me?",
+    page_title="You're stuck with me?",
     page_icon="💖",
     layout="centered",
     initial_sidebar_state="collapsed"
@@ -195,7 +195,7 @@ if st.session_state.frame == 1:
     st.markdown("""
     <div class="main-card">
         <div class="small-label">A Small Question</div>
-        <div class="main-title">Will you go on<br>a date with me?</div>
+        <div class="main-title">Do you wanna spend<br>ur life with me?</div>
         <div class="subtitle">Take your time. There is really only one right answer here.</div>
         <img class="meme-img" 
              src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" 
@@ -433,7 +433,7 @@ elif st.session_state.frame == 3:
                 
                 <p style="margin-bottom:0.9rem;">
                     So this is me officially asking…  
-                    will you be my girlfriend?
+                    will you be my ..........?
                 </p>
                 
                 <p style="margin-bottom:0.9rem;">
@@ -448,7 +448,7 @@ elif st.session_state.frame == 3:
                 color: #be185d;
                 text-align: right;
                 margin-top: 1.1rem;
-            ">Yours,</div>
+            ">Yours Anurag,</div>
             
             <div style="text-align:center; font-size:1.3rem; margin:0.8rem 0 0.3rem; opacity:0.7;">💖</div>
         </div>
